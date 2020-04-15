@@ -8,6 +8,7 @@ ArchiveCat will clone and pull starred git repositories.
 
 ## Installation
 * Install [Python](https://www.python.org/)
+* Install [Git](https://git-scm.com/)
 * Clone the repository with `git clone https://github.com/EV3R4/ArchiveCat-Python.git`
 
 ## Setup
@@ -29,3 +30,6 @@ Additionally you can add the following lines after "github" if you want to ignor
 
 ## Executing ArchiveCat-Python
 Run `python main.py` in a cmd of your choice
+
+## Notes
+If you are using Windows, you might need to use Git Bash
