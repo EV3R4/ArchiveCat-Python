@@ -1,10 +1,9 @@
 # ArchiveCat-Python
+## ArchiveCat will clone and pull starred git repositories.
+### Official Python translation of ArchiveCat
 ![GitHub](https://img.shields.io/github/license/EV3R4/ArchiveCat-Python)
 ![GitHub repo size](https://img.shields.io/github/repo-size/EV3R4/ArchiveCat-Python)
 ![Zero dependencies](https://img.shields.io/badge/dependencies-0-success)
-## Official Python translation of ArchiveCat
-
-ArchiveCat will clone and pull starred git repositories.
 
 ## Installation
 * Install [Python](https://www.python.org/)
