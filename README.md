@@ -7,8 +7,7 @@
 
 ## Installation
 * Install [Python](https://www.python.org/)
-* Install [Git](https://git-scm.com/)
-* Clone the repository with `git clone https://github.com/EV3R4/ArchiveCat-Python.git`
+* Clone the repository with `git clone https://github.com/EV3R4/ArchiveCat-Python.git` or download the [zip](https://github.com/EV3R4/ArchiveCat-Python/archive/master.zip)
 
 ## Setup
 ### Config
