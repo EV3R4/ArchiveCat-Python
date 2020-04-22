@@ -41,7 +41,7 @@ def update(url):
                 print(repo['full_name'] + ' is already up to date!')
                 continue
             print('Pulling ' + repo['full_name'] + '...')
-            run('git pull ' + repo['clone_url'] + ' master', cwd=project_directory)
+            run('git pull ' + repo['clone_url'] + ' ' + repo['default_branch'], cwd=project_directory)
             print('Finished!')
         else:
             print('Cloning ' + repo['full_name'] + '...')
