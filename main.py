@@ -1,4 +1,3 @@
-#import io
 from datetime import datetime
 import http.client as http
 import json
