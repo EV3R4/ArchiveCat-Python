@@ -1,6 +1,6 @@
 from datetime import datetime
 import http.client as http
-import json
+from json import loads
 import os
 from subprocess import run
 
@@ -9,7 +9,7 @@ if not os.path.isdir('projects'):
 
 if os.path.isfile('config.json'):
     with open('config.json', 'r') as f:
-        config = json.loads(f.read())
+        config = loads(f.read())
 else:
     print('No config.json found!')
 
@@ -29,7 +29,7 @@ def update(url):
     if res.status != 200:
         print(res.status + ': ' + res.msg)
         return
-    body = json.loads(res.read())
+    body = loads(res.read())
     for repo in body:
         if repo['full_name'] in config['github']['ignore']:
             print('Ignoring ' + repo['full_name'] + '!')
