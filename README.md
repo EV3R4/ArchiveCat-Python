@@ -1,3 +1,5 @@
+# WARNING: THIS PROJECT IS PAUSED/DISCONTINUED. IT IS NOT RECOMMENDED TO USE IT
+
 # ArchiveCat-Python
 ## ArchiveCat will clone and pull starred git repositories.
 ### Official Python translation of ArchiveCat
